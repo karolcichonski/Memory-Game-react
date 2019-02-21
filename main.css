@@ -1,0 +1,100 @@
+body{
+    background-image: url("img/dark-honeycomb.png");
+    font-family: 'Luckiest Guy', cursive;
+    color:#DEB887;
+    text-align: center;
+}
+.card{
+    position: relative;
+    border:2px solid white;
+    width: 125px;
+    height: 125px;
+    font-size: 36px;
+    margin:5px;
+    text-align: center;
+}
+
+.card:hover{
+    border-color: #d6ee00ce;
+    cursor: pointer;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 125px;
+    height: 125px;
+}
+
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("img/cover.png");
+    width: 125px;
+    height:125px;
+    background-size: 125px;
+}
+.photo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 125px;
+    height:125px;
+}
+
+ p {
+    vertical-align: bottom;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 417px;
+    height: 546px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+header{
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px #e5f59e54;
+}
+
+.score{
+    font-size: 36px;
+    text-align: center;
+}
+
+#winDiv{
+    width: 417px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size: 52px;
+    display: none;
+    color:#ec4629e5;
+
+}
+
+#resButton{
+    border:2px solid white;
+    background-color: rgb(104, 73, 73);
+    cursor: pointer;
+    color:#DEB887;
+}
+
+#resButton:hover{
+ border-color: #d6ee00ce;
+}
+
+#winGif{
+    width: 417px;
+    height: auto;
+    position: relative;
+
+}
